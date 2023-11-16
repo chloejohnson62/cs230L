@@ -1,0 +1,82 @@
+.main-section {
+  background-image: url('todolist.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Additional styling properties */
+}
+body {
+  background-image: url('todolist.jpg');
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+
+/* Overall container styling */
+.todo-container {
+  text-align: center;
+  background-color: #f0f8ff; /* Light azure */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 600px;
+  margin: auto;
+  margin-top: 50px;
+}
+.header {
+  text-align: center;
+  background-color: #f5f2f2;
+  padding: 20px;
+}
+
+.header-text {
+  margin: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+/* Styling for input and buttons */
+input, button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  width: 60%;
+  border: 2px solid #7fffd4; /* Aquamarine border for input */
+}
+
+button {
+  background-color: #7fffd4; /* Aquamarine background for button */
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5f9ea0; /* Cadet blue on hover */
+}
+
+/* Styling for ToDo items */
+li {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fafad2; /* Light Goldenrod Yellow */
+  border: 1px solid #dda0dd; /* Plum border */
+  border-radius: 5px;
+}
+
+/* Alternating background for even and odd items */
+.todo-even {
+  background-color: #fffacd; /* Lemon Chiffon */
+}
+
+/* Hover effect for list items */
+li:hover {
+  background-color: #98fb98; /* Pale Green */
+  color: #000000; /* Black text color */
+  cursor: pointer;
+}
